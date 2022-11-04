@@ -62,6 +62,7 @@ return packer.startup(function(use)
   use { 'romgrk/barbar.nvim' }
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
   use { 'Maan2003/lsp_lines.nvim' }
+  use { 'norcalli/nvim-colorizer.lua'}
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()
